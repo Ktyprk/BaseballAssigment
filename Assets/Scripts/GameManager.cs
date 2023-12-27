@@ -10,7 +10,6 @@ public class GameManager : MonoBehaviour
     public TextMeshProUGUI RedTeamScore, BlueTeamScore, TurnScore;
     private int redscore, bluescore, turnScore;
     [SerializeField] bool canFinish = false, ballFinished =false, strikerFinished = false, GameFinished = false;
-    // Start is called before the first frame update
     void Start()
     {
         //PlayerPrefs.DeleteAll();
@@ -24,7 +23,6 @@ public class GameManager : MonoBehaviour
         BlueTeamScore.text = bluescore.ToString();
     }
 
-    // Update is called once per frame
     void Update()
     {
         if (turnScore >= 9) 

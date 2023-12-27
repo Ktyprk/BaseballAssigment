@@ -31,7 +31,7 @@ public class Ball : MonoBehaviour
 
         int randomNumber = Random.Range(0, 100);
 
-        if (randomNumber <= 10)
+        if (randomNumber <= 20)
         {
             force = 3000;
         }

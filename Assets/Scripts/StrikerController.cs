@@ -14,7 +14,7 @@ public class StrikerController : MonoBehaviour
     void Start()
     {
         navMeshAgent = GetComponent<NavMeshAgent>();
-        navMeshAgent.speed = Random.Range(10f, 20f); 
+        navMeshAgent.speed = Random.Range(10f, 14f); 
 
         SetDestination();
     }
